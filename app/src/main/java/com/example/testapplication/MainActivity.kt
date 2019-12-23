@@ -20,5 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         val no = false
         val yes = true
+        var yess = true
     }
 }
