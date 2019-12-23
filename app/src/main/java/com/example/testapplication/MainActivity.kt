@@ -8,18 +8,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //Dev
-        //Devv
-    }
-
-    fun something(){
-
-    }
-    fun test() {
-
-
-        val no = false
-        val yes = true
-        var yess = true
     }
 }
