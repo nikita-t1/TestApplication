@@ -12,7 +12,12 @@ class MainActivity : AppCompatActivity() {
         //Devv
     }
 
+    fun something(){
+
+    }
     fun test() {
 
+
+        val no = false
     }
 }
