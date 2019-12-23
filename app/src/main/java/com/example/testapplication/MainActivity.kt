@@ -11,4 +11,15 @@ class MainActivity : AppCompatActivity() {
         //Dev
         //Devv
     }
+
+    fun something(){
+
+    }
+    fun test() {
+
+
+        val no = false
+        val yes = true
+        var yess = true
+    }
 }
