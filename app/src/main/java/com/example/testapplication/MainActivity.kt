@@ -11,4 +11,13 @@ class MainActivity : AppCompatActivity() {
         //Dev
         //Devv
     }
+
+    fun something(){
+
+    }
+    fun test() {
+
+
+        val no = false
+    }
 }
