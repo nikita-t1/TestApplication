@@ -10,14 +10,4 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun something(){
-
-    }
-    fun test() {
-
-
-        val no = false
-        val yes = true
-        var yess = true
-    }
 }
