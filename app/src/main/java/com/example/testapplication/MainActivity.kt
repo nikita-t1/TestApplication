@@ -17,5 +17,5 @@ class MainActivity : AppCompatActivity() {
 }
 
 private fun Button.setOnClickListener() {
-    Log.i("Tag", "6")
+    Log.i("Tag", "7")
 }
