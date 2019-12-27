@@ -22,7 +22,6 @@ private fun Button.setOnClickListener() {
     Log.i("Tag"  , "Message 3")
     Log.i("Tag"  , "Message 4")
     Log.i("Tag"  , "Message 5")
-
-
+    Log.i("Tag"  , "Message 12")
 
 }
