@@ -1,6 +1,8 @@
 name: Android CI
 
 on: [push]
+env:
+  VERSION_NAME: grep -oP 'versionName "\K(.*?)(?=")' ./${APP_FOLDER}/build.gradle
 
 jobs:
   build:
@@ -31,6 +33,8 @@ jobs:
       
       - name: Build debug APK
         run: bash ./gradlew assembleDebug --stacktrace
+      - name: print
+        run: echo VERSION_NAME
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
