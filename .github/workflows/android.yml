@@ -31,7 +31,6 @@ jobs:
       
       - name: Build debug APK
         run: ./gradlew assembleDebug --stacktrace
-        run: ls
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
